@@ -1,0 +1,51 @@
+/* Estilo para o corpo da página */
+body {
+  background: linear-gradient(135deg, #1e1e2f 0%, #4b4b7c 100%);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente - ADICIONE ESTA LINHA */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Estilização do formulário e dos cards de resultado */
+.container {
+  width: 100%;
+  max-width: 500px; /* Define um tamanho máximo para o formulário não esticar demais */
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 auto; /* Garante a centralização dentro da linha */
+}
+
+.card {
+  background: transparent;
+  border: none;
+}
+
+h1,
+h2 {
+  color: #ffcc00; /* Cor dourada para dar um toque místico */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-label,
+.form-text {
+  color: #e0e0e0;
+}
+
+/* Ajuste para o botão */
+.btn-primary {
+  background-color: #624cab;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #7a5fcf;
+  transform: translateY(-2px);
+}
